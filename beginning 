@@ -1,2 +1,3 @@
 $ mkdir WORKING_DIRECTORY
 $ cd WORKING_DIRECTORY
+$ repo init -b main -u https://android.googlesource.com/platform/manifest
