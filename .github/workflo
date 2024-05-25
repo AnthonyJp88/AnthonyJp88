@@ -10,7 +10,7 @@ sudo apt-get install git-core gnupg flex bison build-essential zip curl zlib1g-d
     branches: [ "main" ]
 
   # Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch:
+  workflow_dispatch:$ repo init -b main -u https://android.googlesource.com/platform/manifest
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
