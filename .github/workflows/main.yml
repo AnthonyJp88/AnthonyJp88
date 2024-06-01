@@ -1,0 +1,4 @@
+mkdir WORKING_DIRECTORY
+cd WORKING_DIRECTORY
+repo init --partial-clone -b main -u https://android.googlesource.com/platform/manifest
+repo has been initialized in path_to_working_directory
